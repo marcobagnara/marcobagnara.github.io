@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Bagnara - Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2d3748;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .container {
+            padding: 2rem;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        .construction-icon {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            animation: bounce 2s infinite;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            color: #2d3748;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-5px);
+            color: #4a5568;
+        }
+
+        .social-links i {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .social-links span {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="construction-icon">🏗️</div>
+        <h1>Under Construction</h1>
+        <p>Marco Bagnara's website is currently being built. In the meantime, you can find more information about his research, publications, and professional background through the following links.</p>
+        
+        <div class="social-links">
+            <a href="https://www.sns.it/en/persona/marco-bagnara" target="_blank">
+                <i class="fas fa-university"></i>
+                <span>Academic Page</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=94oH_aMAAAAJ&hl=it" target="_blank">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Google Scholar</span>
+            </a>
+            <a href="https://arxiv.org/search/math?searchtype=author&query=Bagnara,+M" target="_blank">
+                <i class="fas fa-book"></i>
+                <span>arXiv</span>
+            </a>
+            <a href="https://www.linkedin.com/in/marco-bagnara-837865151/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
