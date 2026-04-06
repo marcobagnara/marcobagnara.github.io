@@ -1,7 +1,21 @@
-import { Link2, BookOpen } from "lucide-react";
+import { BookOpen } from "lucide-react";
 
 const Publications = () => {
   const publications = [
+    {
+      title: "Regularity thresholds for anomalous dissipation and related phenomena in passive scalars",
+      authors: "Marco Bagnara, Daniel W. Boutros, Camillo De Lellis, and Svitlana Mayboroda",
+      venue: "arXiv preprint arXiv:2603.11466",
+      year: 2026,
+      arxivLink: "https://arxiv.org/abs/2603.11466",
+    },
+    {
+      title: "Refined uniqueness results for 2D Euler and gSQG with rough Kraichnan noise",
+      authors: "Marco Bagnara and Lucio Galeati",
+      venue: "arXiv preprint arXiv:2601.05982",
+      year: 2026,
+      arxivLink: "https://arxiv.org/abs/2601.05982",
+    },
     {
       title: "Anomalous Regularization in Kazantsev-Kraichnan Model",
       authors: "Marco Bagnara, Francesco Grotto, and Mario Maurelli",
@@ -12,29 +26,33 @@ const Publications = () => {
     {
       title: "Regularization by rough Kraichnan noise for the generalised SQG equations",
       authors: "Marco Bagnara, Lucio Galeati, and Mario Maurelli",
-      venue: "arXiv preprint arXiv:2405.12181",
-      year: 2024,
+      venue: "Mathematische Annalen, 392(4)",
+      year: 2025,
       arxivLink: "https://arxiv.org/abs/2405.12181",
+      publishedLink: "https://link.springer.com/article/10.1007/s00208-025-03211-9",
     },
     {
       title: "Global smooth solutions for the stochastic Navier-Stokes equations with super-linear Stratonovich noise in the 3D torus",
       authors: "Marco Bagnara",
-      venue: "New Tools in Mathematical Analysis and Applications: Proceedings of the 14th ISAAC Congress 2023, Ribeirão Preto, Brazil",
-      year: "2025",
+      venue: "New Tools in Mathematical Analysis and Applications, Trends Math., pp. 331-339",
+      year: 2025,
+      publishedLink: "https://link.springer.com/chapter/10.1007/978-3-031-77050-0_25",
     },
     {
       title: "A suitable nonlinear Stratonovich noise prevents blow-up in the Euler equations and other SPDEs",
       authors: "Marco Bagnara",
-      venue: "arXiv preprint arXiv:2312.10446",
-      year: 2023,
+      venue: "Stoch PDE: Anal Comp. (2025)",
+      year: 2025,
       arxivLink: "https://arxiv.org/abs/2312.10446",
+      publishedLink: "https://link.springer.com/article/10.1007/s40072-025-00404-w",
     },
     {
       title: "No blow-up by nonlinear Itô noise for the Euler equations",
       authors: "Marco Bagnara, Mario Maurelli, and Fanhui Xu",
-      venue: "arXiv preprint arXiv:2305.09852",
-      year: 2023,
+      venue: "Electron. J. Probab. 30(81)",
+      year: 2025,
       arxivLink: "https://arxiv.org/abs/2305.09852",
+      publishedLink: "https://projecteuclid.org/journals/electronic-journal-of-probability/volume-30/issue-none/No-blow-up-by-nonlinear-It%c3%b4-noise-for-the-Euler/10.1214/25-EJP1316.full",
     },
     {
       title: "On the Hausdorff measure of ℝⁿ with the Euclidean topology",
@@ -42,7 +60,7 @@ const Publications = () => {
       venue: "Real Anal. Exchange, 48(1):101–106",
       year: 2023,
       arxivLink: "https://arxiv.org/abs/2203.03393",
-      journalLink: "https://projecteuclid.org/journals/real-analysis-exchange/volume-48/issue-1/On-the-Hausdorff-Measure-of-mathbbRn-with-the-Euclidean-Topology/10.14321/realanalexch.48.1.1649735306.short"
+      publishedLink: "https://projecteuclid.org/journals/real-analysis-exchange/volume-48/issue-1/On-the-Hausdorff-Measure-of-mathbbRn-with-the-Euclidean-Topology/10.14321/realanalexch.48.1.1649735306.short"
     },
   ];
 
@@ -83,13 +101,13 @@ const Publications = () => {
                       />
                     </a>
                   )}
-                  {pub.journalLink && (
+                  {pub.publishedLink && (
                     <a
-                      href={pub.journalLink}
+                      href={pub.publishedLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center hover:text-academic-primary"
-                      title="Journal"
+                      title="Published version"
                     >
                       <BookOpen size={16} />
                     </a>
