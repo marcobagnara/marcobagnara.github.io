@@ -25,7 +25,7 @@ const CV = () => {
                   </h4>
                   <div className="mt-2">
                     <p className="text-gray-600">
-                      In the group of Prof.{" "}
+                      in the group of Prof.{" "}
                       <a
                         href="https://www.ma.imperial.ac.uk/~mcotizel/"
                         target="_blank"
@@ -59,9 +59,7 @@ const CV = () => {
                     </a>
                   </h4>
                   <div className="mt-2">
-                    <p className="text-gray-600">Research areas: Stochastic Fluid Dynamics, SPDEs, regularization by noise.</p>
-                    <p className="text-gray-600">
-                      Supervisors: Prof.{" "}
+                    <p className="text-gray-600">cum laude. Supervisors: Prof.{" "}
                       <a
                         href="https://www.dm.unipi.it/en/person-details/?person_id=63822bbf7942943d6350d6a0"
                         target="_blank"
