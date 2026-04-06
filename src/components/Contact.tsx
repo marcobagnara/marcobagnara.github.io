@@ -15,7 +15,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold">Email</h3>
                   <p className="text-academic-secondary">
-                    marco.bagnara@sns.it
+                    m.bagnara@imperial.ac.uk
                   </p>
                 </div>
               </div>
@@ -24,9 +24,11 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold">Address</h3>
                   <p className="text-academic-secondary">
-                    Scuola Normale Superiore<br />
-                    Piazza dei Cavalieri, 7<br />
-                    56126 Pisa PI
+                    Department of Mathematics<br />
+                    180 Queen's Gate<br />
+                    South Kensington Campus<br />
+                    Imperial College London<br />
+                    London SW7 2AZ
                   </p>
                 </div>
               </div>

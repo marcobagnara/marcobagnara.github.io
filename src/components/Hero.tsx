@@ -4,7 +4,27 @@ const Hero = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-left mb-8 md:mb-0">
           <p className="text-gray-600 max-w-lg animate-fade-up text-lg">
-            I am currently in the final year of my PhD in Mathematics at the{" "}
+            I am currently a Research Associate in Mathematics at{" "}
+            <a
+              href="https://www.imperial.ac.uk/"
+              className="text-academic-primary hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Imperial College London
+            </a>{" "}
+            working in the group of Professor{" "}
+            <a
+              href="https://www.ma.imperial.ac.uk/~mcotizel/"
+              className="text-academic-primary hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Michele Coti Zelati
+            </a>
+            .
+            <br /><br />
+            Previously, I was a PhD student in Mathematics at the{" "}
             <a 
               href="https://www.sns.it/en" 
               className="text-academic-primary hover:underline"
@@ -14,7 +34,7 @@ const Hero = () => {
               Scuola Normale Superiore
             </a>{" "}
             in Pisa, under the supervision of Professors{" "}
-            <a 
+            <a
               href="https://www.dm.unipi.it/en/person-details/?person_id=63822bbf7942943d6350d6a0"
               className="text-academic-primary hover:underline"
               target="_blank"
@@ -47,15 +67,15 @@ const Hero = () => {
               Marco Bagnara
             </h1>
             <h2 className="text-center text-base md:text-lg text-academic-secondary animate-fade-up mb-4">
-              PhD Student in Mathematics
+              Research Associate in Mathematics
             </h2>
             <div className="flex space-x-4 animate-fade-up justify-center">
               <a
-                href="https://www.sns.it/en/persona/marco-bagnara"
+                href="https://www.imperial.ac.uk/analysis-probability-pdes/people/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-academic-primary hover:text-academic-secondary transition-colors"
-                title="SNS webpage"
+                title="Imperial profile"
               >
                 <i className="ai ai-archive text-3xl"></i>
               </a>

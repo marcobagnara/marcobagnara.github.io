@@ -14,6 +14,41 @@ const CV = () => {
               <div className="flex justify-between items-center">
                 <div className="flex flex-col justify-center">
                   <h4 className="font-semibold text-gray-800">
+                    Research Associate in Mathematics @ <a
+                      href="https://www.imperial.ac.uk/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-academic-primary hover:underline"
+                    >
+                      Imperial College London
+                    </a>
+                  </h4>
+                  <div className="mt-2">
+                    <p className="text-gray-600">
+                      In the group of Prof.{" "}
+                      <a
+                        href="https://www.ma.imperial.ac.uk/~mcotizel/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-academic-primary hover:underline"
+                      >
+                        Michele Coti Zelati
+                      </a>
+                      .
+                    </p>
+                  </div>
+                </div>
+                <div className="text-right flex flex-col items-center justify-center">
+                  <div className="text-gray-600">9/2025-present</div>
+                  <div className="text-gray-600 text-sm">London, UK</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-academic-halfshadedbg p-6 rounded-lg shadow-sm flex flex-col justify-center">
+              <div className="flex justify-between items-center">
+                <div className="flex flex-col justify-center">
+                  <h4 className="font-semibold text-gray-800">
                     Ph.D. in Mathematics @ <a 
                       href="https://www.sns.it/en"
                       target="_blank"
@@ -25,7 +60,27 @@ const CV = () => {
                   </h4>
                   <div className="mt-2">
                     <p className="text-gray-600">Research areas: Stochastic Fluid Dynamics, SPDEs, regularization by noise.</p>
-                    <p className="text-gray-600">Supervisors: Prof. Mario Maurelli, Prof. Franco Flandoli.</p>
+                    <p className="text-gray-600">
+                      Supervisors: Prof.{" "}
+                      <a
+                        href="https://www.dm.unipi.it/en/person-details/?person_id=63822bbf7942943d6350d6a0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-academic-primary hover:underline"
+                      >
+                        Mario Maurelli
+                      </a>
+                      , Prof.{" "}
+                      <a
+                        href="https://sites.google.com/sns.it/franco-flandoli/home-page"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-academic-primary hover:underline"
+                      >
+                        Franco Flandoli
+                      </a>
+                      .
+                    </p>
                   </div>
                 </div>
                 <div className="text-right flex flex-col items-center justify-center">
