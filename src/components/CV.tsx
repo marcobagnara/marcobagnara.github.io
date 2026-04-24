@@ -126,7 +126,7 @@ const CV = () => {
                   </h4>
                 </div>
                 <div className="text-right flex flex-col items-center justify-center">
-                  <div className="text-gray-600">3/2021-6/2021</div>
+                  <div className="text-gray-600">4/2021-6/2021</div>
                   <div className="text-gray-600 text-sm">Milano, Italy</div>
                 </div>
               </div>
